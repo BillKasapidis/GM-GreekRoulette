@@ -5,9 +5,32 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\sClient</sprite>
+    <sprite>sprites\sButton</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_serverCreate.gml</script>
+    <script>scripts\scr_clientConnect.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_server</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_serverClient</object>
+    <object>objects\obj_client</object>
+    <object>objects\oButton</object>
+    <object>objects\obj_otherClient</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
+  <constants number="2">
+    <constant name="UPDATE_SPEED">3</constant>
+    <constant name="MESSAGE_MOVE">1</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
