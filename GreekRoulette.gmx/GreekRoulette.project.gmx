@@ -26,10 +26,12 @@
     <sprite>sprites\spr_player1cross</sprite>
     <sprite>sprites\spr_player2cross</sprite>
     <sprite>sprites\spr_stun</sprite>
+    <sprites name="menu buttons">
+      <sprite>sprites\spr_createServer</sprite>
+      <sprite>sprites\spr_joinServer</sprite>
+    </sprites>
   </sprites>
-  <backgrounds name="background">
-    <background>background\bg_mainMenu</background>
-  </backgrounds>
+  <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_player1ControlScheme.gml</script>
@@ -41,6 +43,9 @@
     <script>scripts\scr_throwedPistolControls.gml</script>
     <script>scripts\scr_pistolSpawner.gml</script>
     <script>scripts\scr_playerDeath.gml</script>
+    <script>scripts\scr_setUpGameRoom.gml</script>
+    <script>scripts\scr_createServer.gml</script>
+    <script>scripts\scr_clientConnect.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player1</object>
@@ -69,14 +74,18 @@
     <object>objects\obj_player1cross</object>
     <object>objects\obj_player2cross</object>
     <object>objects\obj_stun</object>
+    <object>objects\obj_buttonCreateServer</object>
+    <object>objects\obj_buttonJoinServer</object>
+    <object>objects\obj_server</object>
+    <object>objects\obj_client</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_player1death</timeline>
     <timeline>timelines\tl_player2death</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\rm_game</room>
     <room>rooms\rm_mainMenu</room>
+    <room>rooms\rm_game</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

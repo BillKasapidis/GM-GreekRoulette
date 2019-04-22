@@ -52,7 +52,6 @@
   </views>
   <instances>
     <instance objName="obj_game" x="992" y="8" name="inst_471DE5F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player1" x="88" y="376" name="inst_4D02FAAD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall1" x="224" y="152" name="inst_FCA4F8F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall1" x="208" y="608" name="inst_FA7D837D" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall1" x="832" y="160" name="inst_B4C2C65D" locked="0" code="" scaleX="-1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -66,7 +65,6 @@
     <instance objName="obj_spawner3" x="840" y="152" name="inst_1D78C6B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawner4" x="528" y="152" name="inst_FD3C3953" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawner5" x="520" y="608" name="inst_53E9C9E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player2" x="896" y="376" name="inst_373A3041" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player1cross" x="184" y="400" name="inst_FE93DF68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player2cross" x="808" y="376" name="inst_26C82ABD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
