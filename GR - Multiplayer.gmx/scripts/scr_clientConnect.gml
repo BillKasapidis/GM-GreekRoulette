@@ -29,7 +29,7 @@ while(true){
     
     switch (message_id){
         case MESSAGE_MOVE:
-            var client = buffer_read(buffer, buffer_u8);
+            client = buffer_read(buffer, buffer_u16);
             xx = buffer_read(buffer, buffer_u16);
             yy = buffer_read(buffer, buffer_u16);
             

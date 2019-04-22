@@ -30,7 +30,7 @@ if (client_id_counter >= 65000){
 clientmap [? string(socket_id)] = serverClient;
 
 #define scr_serverHandleMessage
-///scr_serverHandleMessage(socket_id, message)
+///scr_serverHandleMessage(socket_id, buffer)
 var socket_id = argument0,
 buffer = argument1,
 client_id_current = clientmap [? string(socket_id)].client_id;

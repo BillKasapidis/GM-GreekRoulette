@@ -100,10 +100,8 @@ alarm[0] = UPDATE_SPEED;
             <string>switch(async_load[? "type"]){
 
     case network_type_data:
-        show_message ("WE ARE HERE");
         scr_clientHandleMessage(async_load[? "buffer"]);
     break;
-            
 }
 </string>
           </argument>

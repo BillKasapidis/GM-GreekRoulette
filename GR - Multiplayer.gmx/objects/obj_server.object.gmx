@@ -50,6 +50,7 @@ server  = scr_serverCreate(9000);
           <argument>
             <kind>1</kind>
             <string>///Call the appropriate scripts depending on what's happening
+
 switch(async_load[? "type"]){
     case network_type_connect:
     case network_type_non_blocking_connect:
